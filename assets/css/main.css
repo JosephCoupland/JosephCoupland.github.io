@@ -24,6 +24,26 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+/*accordion */
+		/* Style the buttons that are used to open and close the accordion panel */
+	.accordion {
+	  background-color: #;
+	  color: #444;
+	  cursor: pointer;
+	  padding: 18px;
+	  width: 100%;
+	  text-align: left;
+	  border: none;
+	  outline: none;
+	  transition: 0.4s;
+	}
+	.panel {
+	  padding: 0 18px;
+	  background-color: f2f2f2;
+	  display: none;
+	  overflow: hidden;
+	}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}

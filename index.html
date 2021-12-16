@@ -76,8 +76,25 @@
 							</ul>
 						</div>
 					</section>
-
-					<!-- One -->
+<button class="accordion">Supporting IT Skills</button>
+			<div class="panel">
+			  <p>If you're interested in canidates that have effiencies across multiple areas include spreadsheets for data management below are some additional skills that I process.</p> </br>
+			  <button class="accordion">Microsoft Packages</button>
+				<div class="panel">
+				  <h2>Microsoft Packages</h2>
+				  <p>Whilst working in a range of teams within my local council I have developed high effiencies in a range of Microsoft products namely word and Excel in order to make services both automated and remove possibility of human error</br>
+				  <li>Here is a spreadsheet with some examples of my <a href="https://docs.google.com/spreadsheets/d/16YdEckrhF9cZd5lYYyDS1jGb2OW91-PRgFzKJxEnY3o/edit?usp=drivesdk" target="_blank">Excel skills</a>, please feel free to download the document if you would also like to interact with the data.</li></br>
+				  <li>Word I have experience creating mail merged</a> documents to send emails to customers using data from reports on customers.</li></br></p> 
+				</div>
+			<button class="accordion">Website Development</button>
+				<div class="panel">
+				<h2>My Web Development skills</h2> 
+					<p>I have been a developer on three developer websites</br>
+					<li>Primary Web Developer for <a href="https://www.safeguardingsheffieldchildren.org/sscb" target="_blank">Sheffield Safeguarding Children Partnership</a>, I lead two projects, the first project was to change paper application forms to online <a href="https://www.safeguardingsheffieldchildren.org/sscb/training/scsp-multi-agency-safeguarding-children-training" target="_blank">E-Forms</a>. The second was mentoring an apprentice to review the content to make it more appropriate for younger audiances not just professonals</li></br>
+					<li>Developer for <a href="https://www.sheffield.gov.uk/home" target="_blank">Sheffield City Council's Website</a>, this website was built using Adobe Experience Manager, mostly using drag and drop widgets to build the pages. I was also involved in customer jouney and having workshops and User Acceptance Testing with users and staff</li></br></p>
+				</div>
+			</div>
+					<!-- Two -->
 						<section id="two" class="wrapper style2 spotlights">
 							<section>
 								<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
@@ -154,6 +171,25 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+			var acc = document.getElementsByClassName("accordion");
+			var i;
 
+			for (i = 0; i < acc.length; i++) {
+			  acc[i].addEventListener("click", function() 
+			  {
+				this.classList.toggle("active");
+				var panel = this.nextElementSibling;
+				if (panel.style.display === "block") 
+					{
+						panel.style.display = "none";
+					} 
+				else 
+					{
+						panel.style.display = "block";
+					}
+			  });
+			}
+</script>
 	</body>
 </html>
