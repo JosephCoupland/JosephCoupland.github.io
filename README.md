@@ -1,1 +1,3 @@
-# JosephCoupland.github.io
+Hi Welcome to my portfolio files.
+
+My code is available to be reviewed, if you have any questions regarding my code please let me know. If you're a student and would like some help or guidance on how I configured my portfolio such as the scripting I am happy to provide any support, my code is available to be used and altered to your own requirements, all I ask is you consider endorsement on my LinkedIn (https://www.linkedin.com/in/joseph-coupland-7a9301226/) for my JavaScript and Web Development.
